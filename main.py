@@ -19,7 +19,7 @@ def main():
 
     text = get_text(url)
     words = text.split()
-
+    # optimized
     freq_all = {}
     for w in words:
         if w in freq_all:
@@ -33,7 +33,6 @@ def main():
 
     print(frequencies)
     print("optimized version")
-
 
 if __name__ == "__main__":
     main()
